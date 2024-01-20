@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attentify - Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&display=swap" rel="stylesheet">
+    <script src="./script.js"></script>
+</head>
+<body onload="changeQuote();">
+    <div class='light x1'></div>
+  <div class='light x2'></div>
+  <div class='light x3'></div>
+  <div class='light x4'></div>
+  <div class='light x5'></div>
+  <div class='light x6'></div>
+  <div class='light x7'></div>
+  <div class='light x8'></div>
+  <div class='light x9'></div>
+    <header>
+        <div class="left-header">
+            <h1 class="name">Attentify</h1>
+        </div>
+        <div class="right-header">
+            <a class="btn btn-primary" href="signup.html">Signup</a> <a class="btn btn-secondary" href="check-attendance.html">Check Attendance</a> <a class="btn btn-outline-secondary" href="about-us.html">About Us</a>
+        </div>
+    </header>
+    <main>
+        <div class="right-side">
+            <h1>Attentify</h1>
+            <p class="quote">Your quote here</p>
+        </div>
+        <div class="left-side">
+            <h2>Login</h2>
+            <form action="login-process.php" method="post">
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" class="form-control" id="username" name="username">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" class="form-control" id="password" name="password">
+                </div>
+                <button type="submit" class="btn btn-primary">Login</button>
+                <a href="#" class="btn btn-link">Forgot Password?</a>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
