@@ -283,7 +283,7 @@ body {
     position: absolute;
     width: 0px;
     opacity: .75;
-    background-color: white;
+    background-color: rgb(15, 14, 14);
     box-shadow: #e9f1f1 0px 0px 20px 2px;
     opacity: 0;
     top: 100vh;
